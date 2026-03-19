@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useOutletContext } from "react-router-dom";
 import Stack from 'react-bootstrap/Stack';
+import { userLogOut } from "../utilities"; 
 import TaskDisplay from "../components/TaskDisplay";
 import TaskForm from "../components/TaskForm";
 
@@ -26,7 +27,7 @@ const HomePage = () => {
 
     return (
         <>
-            <h1>Welcome {user && user}: Here are your Tasks <button onClick={()=>setUser(null)}>Log Out</button></h1>
+            <h1>Welcome {user && user}: Here are your Tasks <button onClick={async()=>setUser(await userLogOut())}>Log Out</button></h1>
 
             <Stack gap={3}>
                 <TaskForm addTask={addTask}/>
