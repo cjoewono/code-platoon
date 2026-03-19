@@ -1,0 +1,21 @@
+.default/
+venv/
+env/
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+.env
+Phase 2/BE/Django_ORM/school_api_project/
+Phase 1/JS-Python/algo-fibonacci/
+Phase 1/JS-Python/algo-fibonacci/
+Phase 1/JS-Python/algo-roman-numeral-py/algo-roman-numeral-py/
+Phase 1/OOP/csv-reader/
+Phase 1/OOP/oop-contact-list/
+Phase 1/OOP/oop-guessing-game/
+Phase 1/OOP/oop-school-interface-ii/
+Phase 1/OOP/oop-student-registry/
+Phase 1/OOP/oop-vehicle-shop/
+Phase 1/OOP/oop-zoo/
+Phase 1/practice-assessment-python-fundamentals-cjoewono/
+CLAUDE.md

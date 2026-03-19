@@ -1,0 +1,29 @@
+{
+  "tests": [
+    { "name": "Test 01 - Video Attributes Exist", "run": "pytest tests/test_01_video_attributes_exist.py -q --maxfail=1 --tb=short", "points": 2 },
+    { "name": "Test 02 - Video Properties Exist", "run": "pytest tests/test_02_video_properties_exist.py -q --maxfail=1 --tb=short", "points": 2 },
+    { "name": "Test 03 - Video Methods Exist", "run": "pytest tests/test_03_video_methods_exist.py -q --maxfail=1 --tb=short", "points": 2 },
+    { "name": "Test 04 - Decrease Copies", "run": "pytest tests/test_04_decrease_copies.py -q --maxfail=1 --tb=short", "points": 2 },
+    { "name": "Test 05 - Decrease Copies Error", "run": "pytest tests/test_05_decrease_copies_error.py -q --maxfail=1 --tb=short", "points": 2 },
+    { "name": "Test 06 - Increase Copies", "run": "pytest tests/test_06_increase_copies.py -q --maxfail=1 --tb=short", "points": 2 },
+    { "name": "Test 07 - Create Video", "run": "pytest tests/test_07_create_video.py -q --maxfail=1 --tb=short", "points": 2 },
+    { "name": "Test 08 - Customer Attributes Exist", "run": "pytest tests/test_08_customer_attributes_exist.py -q --maxfail=1 --tb=short", "points": 2 },
+    { "name": "Test 09 - Customer Properties Exist", "run": "pytest tests/test_09_customer_properties_exist.py -q --maxfail=1 --tb=short", "points": 2 },
+    { "name": "Test 10 - Customer Methods Exist", "run": "pytest tests/test_10_customer_methods_exist.py -q --maxfail=1 --tb=short", "points": 2 },
+    { "name": "Test 11 - View Rentals", "run": "pytest tests/test_11_view_rentals.py -q --maxfail=1 --tb=short", "points": 2 },
+    { "name": "Test 12 - Add Rental", "run": "pytest tests/test_12_add_rental.py -q --maxfail=1 --tb=short", "points": 2 },
+    { "name": "Test 13 - Return Rental", "run": "pytest tests/test_13_return_rental.py -q --maxfail=1 --tb=short", "points": 2 },
+    { "name": "Test 14 - Generate ID", "run": "pytest tests/test_14_generate_id.py -q --maxfail=1 --tb=short", "points": 2 },
+    { "name": "Test 15 - Create Customer", "run": "pytest tests/test_15_create_customer.py -q --maxfail=1 --tb=short", "points": 2 },
+    { "name": "Test 16 - Customer PX Can Rent", "run": "pytest tests/test_16_customer_px_can_rent.py -q --maxfail=1 --tb=short", "points": 2 },
+    { "name": "Test 17 - Customer PF Can Rent", "run": "pytest tests/test_17_customer_pf_can_rent.py -q --maxfail=1 --tb=short", "points": 2 },
+    { "name": "Test 18 - Customer SX Can Rent", "run": "pytest tests/test_18_customer_sx_can_rent.py -q --maxfail=1 --tb=short", "points": 2 },
+    { "name": "Test 19 - Customer SF Can Rent", "run": "pytest tests/test_19_customer_sf_can_rent.py -q --maxfail=1 --tb=short", "points": 2 },
+    { "name": "Test 20 - Store Attributes", "run": "pytest tests/test_20_store_attributes.py -q --maxfail=1 --tb=short", "points": 2 },
+    { "name": "Test 21 - Store New Customer Success", "run": "pytest tests/test_21_store_new_customer_success.py -q --maxfail=1 --tb=short", "points": 2 },
+    { "name": "Test 22 - Store Get Customer By ID", "run": "pytest tests/test_22_store_get_customer_by_id.py -q --maxfail=1 --tb=short", "points": 2 },
+    { "name": "Test 23 - Get Video By Title", "run": "pytest tests/test_23_get_video_by_video_title.py -q --maxfail=1 --tb=short", "points": 2 },
+    { "name": "Test 24 - Store Load Data", "run": "pytest tests/test_24_store_load_data.py -q --maxfail=1 --tb=short", "points": 2 },
+    { "name": "Test 25 - Store Run The Store", "run": "pytest tests/test_25_store_run_the_store.py -q --maxfail=1 --tb=short", "points": 2 }
+  ]
+}
